@@ -1,0 +1,158 @@
+body {
+  background-color: #8f8f8f;
+  background-image: url("img/bg.jpg");
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  padding: 2em;
+}
+
+.button {
+  background-color: rgb(192, 189, 189);
+  color: white;
+}
+.button:hover {
+  background-color: rgb(126, 126, 126);
+}
+
+.horizontal ul {
+  display: flex;
+  background-color: rgb(192, 189, 189);
+  justify-content: space-around;
+}
+
+.horizontal a {
+  display: block;
+  padding: 1em;
+  background-color: rgba(138, 134, 134, 0.616);
+  color: white;
+}
+
+.horizontal a:hover {
+  background-color: rgb(126, 126, 126);
+}
+
+.commentary {
+  margin: 3em;
+  padding: 3em;
+  background-color: gray;
+  color: white;
+  max-width: 30em;
+}
+
+.vertical {
+  block-size: auto;
+  width: fit-content;
+}
+
+.vertical ul {
+  background-color: rgb(192, 189, 189);
+  padding: 1em;
+}
+
+.vertical a {
+  display: block;
+  padding: 1em;
+  background-color: rgba(138, 134, 134, 0.616);
+  color: white;
+}
+
+.vertical a:hover {
+  background-color: rgb(126, 126, 126);
+}
+
+.social {
+  position: fixed;
+  right: 0%;
+  background-color: rgb(192, 189, 189);
+  padding: 1em;
+}
+
+.social li {
+  margin-bottom: 0.5em;
+  padding: 10px 5px;
+  background-color: rgba(138, 134, 134, 0.616);
+}
+
+.social a {
+  color: white;
+}
+.social a:hover {
+  color: red;
+}
+
+.multi-level ul {
+  background-color: rgb(192, 189, 189);
+  position: absolute;
+}
+
+.multi-level li {
+  float: left;
+  height: 100%;
+  position: relative;
+}
+
+.multi-level a {
+  display: block;
+  background-color: rgb(192, 189, 189);
+  color: white;
+  padding: 1em;
+  min-width: 5em;
+}
+
+.multi-level ul.multi-levelTOP {
+  padding: 0;
+  margin-left: 1em;
+}
+
+.multi-level a:hover {
+  background-color: rgb(126, 126, 126);
+}
+
+.multi-level .PODmulti-level {
+  display: none;
+}
+
+.multi-level li:hover .PODmulti-level {
+  padding: 0;
+  display: block;
+}
+
+.multi-level .multiMenu {
+  display: none;
+}
+
+.multi-level li:hover .multiMenu {
+  display: block;
+}
+
+.multi-level .multiMenu div {
+  width: 50em;
+  padding: 1em;
+}
+svg path {
+  stroke:inherit;
+  stroke-width:inherit;
+  fill:inherit;
+}
+.circle svg:hover{
+  stroke: green; 
+  fill: greenyellow;
+}
+.circle:hover { 
+  stroke: green; 
+  fill: greenyellow;
+}
