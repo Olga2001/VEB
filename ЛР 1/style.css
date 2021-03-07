@@ -143,3 +143,16 @@ input {
   width: 50em;
   padding: 1em;
 }
+svg path {
+  stroke:inherit;
+  stroke-width:inherit;
+  fill:inherit;
+}
+.circle svg:hover{
+  stroke: green; 
+  fill: greenyellow;
+}
+.circle:hover { 
+  stroke: green; 
+  fill: greenyellow;
+}

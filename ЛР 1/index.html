@@ -18,9 +18,12 @@
         </ul>
       </nav>
     </header>
-    <div class ="commentary">
-        Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты или прототипы содержимым. Это тестовый контент, который не должен нести никакого смысла, лишь показать наличие самого текста или продемонстрировать типографику в деле.
-    </div>
+      <form>
+        <input type="hidden" value="id" name="msg">
+        <textarea class ="commentary" name="text"></textarea>
+        <input class = "button" type="submit" value="добавить комментарий">
+    </form>
+
     <footer>
       <input
         class="button"
@@ -39,7 +42,13 @@
       type="button"
       value="multi-level"
       OnClick="location.href='multi-level.html'"
-    />
+      />
+      <input
+      class="button"
+      type="button"
+      value="svg"
+      OnClick="location.href='svg.html'"
+      />
     </footer>
   </body>
 </html>
